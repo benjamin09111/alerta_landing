@@ -5,7 +5,7 @@ import { Hero } from './components/sections/Hero';
 import { ProductShowcase } from './components/sections/ProductShowcase';
 import { Features } from './components/sections/Features';
 import { About } from './components/sections/About';
-import { Contact } from './components/sections/Contact';
+
 
 function App() {
   return (
