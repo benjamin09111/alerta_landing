@@ -40,7 +40,7 @@ export const Features: React.FC = () => {
         <section id="features" className="py-24 bg-slate-50">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-primary mb-4">Why Choose <span className="text-secondary">ALERTA</span>?</h2>
+                    <h2 className="text-4xl font-bold text-primary mb-4">Why Choose <span className="text-secondary">Alerta</span>?</h2>
                     <p className="text-slate-600 max-w-2xl mx-auto">
                         Packed with advanced technology to ensure your safety in any situation.
                     </p>

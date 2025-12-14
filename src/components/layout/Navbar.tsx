@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
             <div className="container mx-auto px-4 flex justify-between items-center">
                 <div className="flex items-center gap-2">
                     <img src="/log.png" alt="ALERTA Logo" className="h-10 w-auto" />
-                    <span className="text-2xl font-bold text-primary">ALERTA</span>
+                    <span className="text-2xl font-jenson font-bold text-primary">Alerta</span>
                 </div>
 
                 {/* Desktop Menu */}
@@ -28,7 +28,7 @@ export const Navbar: React.FC = () => {
                     <a href="#features" className="text-primary hover:text-secondary transition-colors">Features</a>
                     <a href="#product" className="text-primary hover:text-secondary transition-colors">Product</a>
                     <a href="#about" className="text-primary hover:text-secondary transition-colors">About</a>
-                    <a href="#about" className="text-primary hover:text-secondary transition-colors">Contact</a>
+                    <a href="#contact" className="text-primary hover:text-secondary transition-colors">Contact</a>
                     <Button variant="primary" size="sm">Get Protected</Button>
                 </div>
 

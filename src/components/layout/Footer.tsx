@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
                     <div className="space-y-4">
                         <div className="flex items-center gap-2">
                             <img src="/log.png" alt="ALERTA Logo" className="h-10 w-auto" />
-                            <span className="text-2xl font-bold text-white">ALERTA</span>
+                            <span className="text-2xl font-jenson font-bold text-white">Alerta</span>
                         </div>
                         <p className="text-slate-400">
                             Your safety, our priority. Advanced protection technology in your pocket.

@@ -48,12 +48,16 @@ export const Hero: React.FC = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                        <Button size="lg" className="gap-2">
-                            Order Now <ArrowRight size={20} />
-                        </Button>
-                        <Button variant="outline" size="lg">
-                            Learn More
-                        </Button>
+                        <a href="#contact">
+                            <Button size="lg" className="gap-2">
+                                Pre-order now <ArrowRight size={20} />
+                            </Button>
+                        </a>
+                        <a href="#features">
+                            <Button variant="outline" size="lg">
+                                Learn More
+                            </Button>
+                        </a>
                     </div>
                 </motion.div>
 

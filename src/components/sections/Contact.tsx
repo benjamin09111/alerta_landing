@@ -3,7 +3,7 @@ import { Mail, MessageSquare, Send, User } from 'lucide-react';
 
 export const Contact = () => {
     return (
-        <section className="py-24 bg-black text-white relative overflow-hidden" id="contact">
+        <section className="py-24 bg-gradient-to-b from-slate-900 to-black text-white relative overflow-hidden" id="contact">
             <div className="container mx-auto px-6 relative z-10">
                 <div className="max-w-4xl mx-auto">
                     <div className="text-center mb-16">
