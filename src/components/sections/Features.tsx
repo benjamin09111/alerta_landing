@@ -1,22 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Bell, Battery, Smartphone, ShieldCheck, Users } from 'lucide-react';
+import { MapPin, Bell, Battery, Smartphone, ShieldCheck, Palette } from 'lucide-react';
 
 const features = [
     {
         icon: <Bell className="w-8 h-8" />,
         title: "Instant Alerts",
-        description: "One press sends an immediate SOS to your emergency contacts and local authorities."
+        description: "Hold 5 seconds to send an immediate SOS to your emergency contacts."
     },
     {
         icon: <MapPin className="w-8 h-8" />,
-        title: "Real-time GPS",
-        description: "Live location tracking ensures help can find you exactly where you are."
+        title: "NO tracking",
+        description: "NO live location or tracking, just ensures help can find you exactly where you are when you press the button."
     },
     {
         icon: <Battery className="w-8 h-8" />,
         title: "Long Battery Life",
-        description: "Up to 1 year of battery life. No need to charge daily."
+        description: "Up to 1-3 year of battery life. No need to charge daily."
     },
     {
         icon: <Smartphone className="w-8 h-8" />,
@@ -29,9 +29,9 @@ const features = [
         description: "Water-resistant and built to withstand daily wear and tear."
     },
     {
-        icon: <Users className="w-8 h-8" />,
-        title: "Community Safety",
-        description: "Join a network of users dedicated to making our streets safer."
+        icon: <Palette className="w-8 h-8" />,
+        title: "Good Design",
+        description: "Beautiful and attractive design, with a lot colors variety."
     }
 ];
 

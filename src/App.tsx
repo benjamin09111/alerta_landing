@@ -3,6 +3,7 @@ import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { Hero } from './components/sections/Hero';
 import { ProductShowcase } from './components/sections/ProductShowcase';
+import AppInterface from './components/sections/AppInterface';
 import { Features } from './components/sections/Features';
 import { About } from './components/sections/About';
 
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <ProductShowcase />
         <Features />
+        <AppInterface />
         <About />
       </main>
       <Footer />

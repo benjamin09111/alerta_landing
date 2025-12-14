@@ -15,7 +15,7 @@ export const ProductShowcase: React.FC = () => {
                 >
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">Designed for <span className="text-secondary">Protection</span></h2>
                     <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-                        Sleek, durable, and always ready. The ALERTA keychain blends seamlessly into your life while providing powerful security features.
+                        Beautiful, sleek, durable, and always ready. The ALERTA keychain blends seamlessly into your life while providing powerful security features.
                     </p>
                 </motion.div>
 
@@ -83,7 +83,7 @@ export const ProductShowcase: React.FC = () => {
                                 <MessageSquare className="text-secondary w-8 h-8" />
                             </div>
                             <h3 className="text-xl font-bold mb-2">Instant SMS Alert</h3>
-                            <p className="text-slate-400">Send emergency alerts to your contacts with a single press.</p>
+                            <p className="text-slate-400">Send emergency alerts to your contacts holding a 5 seconds button.</p>
                         </motion.div>
 
                         <motion.div
@@ -97,7 +97,7 @@ export const ProductShowcase: React.FC = () => {
                                 <MapPin className="text-secondary w-8 h-8" />
                             </div>
                             <h3 className="text-xl font-bold mb-2">GPS Tracking</h3>
-                            <p className="text-slate-400">Real-time location sharing allows help to find you immediately.</p>
+                            <p className="text-slate-400">NO tracking your location, only sharing when you press the button.</p>
                         </motion.div>
                     </div>
 

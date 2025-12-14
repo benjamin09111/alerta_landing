@@ -8,8 +8,8 @@ export const Footer: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div className="space-y-4">
                         <div className="flex items-center gap-2">
-                            <Shield className="w-8 h-8 text-secondary" />
-                            <span className="text-2xl font-bold">ALERTA</span>
+                            <Shield className="w-8 h-8 text-white" />
+                            <span className="text-2xl font-bold text-white">ALERTA</span>
                         </div>
                         <p className="text-slate-400">
                             Your safety, our priority. Advanced protection technology in your pocket.
@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
                     </div>
 
                     <div>
-                        <h3 className="font-bold text-lg mb-4">Product</h3>
+                        <h3 className="font-bold text-lg mb-4 text-white">Product</h3>
                         <ul className="space-y-2 text-slate-400">
                             <li><a href="#" className="hover:text-secondary">Features</a></li>
                             <li><a href="#" className="hover:text-secondary">Technology</a></li>
@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
                     </div>
 
                     <div>
-                        <h3 className="font-bold text-lg mb-4">Company</h3>
+                        <h3 className="font-bold text-lg mb-4 text-white">Company</h3>
                         <ul className="space-y-2 text-slate-400">
                             <li><a href="#" className="hover:text-secondary">About Us</a></li>
                             <li><a href="#" className="hover:text-secondary">Contact</a></li>
@@ -35,7 +35,7 @@ export const Footer: React.FC = () => {
                     </div>
 
                     <div>
-                        <h3 className="font-bold text-lg mb-4">Connect</h3>
+                        <h3 className="font-bold text-lg mb-4 text-white">Connect</h3>
                         <div className="flex gap-4">
                             <a href="#" className="bg-slate-800 p-2 rounded-full hover:bg-secondary transition-colors"><Facebook size={20} /></a>
                             <a href="#" className="bg-slate-800 p-2 rounded-full hover:bg-secondary transition-colors"><Twitter size={20} /></a>

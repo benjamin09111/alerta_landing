@@ -44,7 +44,7 @@ export const Hero: React.FC = () => {
                     </h1>
 
                     <p className="text-xl text-slate-600 max-w-lg mx-auto">
-                        ALERTA is the smart keychain that keeps you connected to help when you need it most. Instant alerts, GPS tracking, and peace of mind.
+                        ALERTA is the smart keychain that keeps you connected to help when you need it most. Instant, fast, simple alerts to your personal contacts, and peace of mind.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
