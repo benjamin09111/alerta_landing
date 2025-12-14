@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Facebook, Twitter, Instagram, Mail } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Mail } from 'lucide-react';
 
 export const Footer: React.FC = () => {
     return (
@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div className="space-y-4">
                         <div className="flex items-center gap-2">
-                            <Shield className="w-8 h-8 text-white" />
+                            <img src="/log.png" alt="ALERTA Logo" className="h-10 w-auto" />
                             <span className="text-2xl font-bold text-white">ALERTA</span>
                         </div>
                         <p className="text-slate-400">

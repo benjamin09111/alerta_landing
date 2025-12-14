@@ -5,7 +5,9 @@ import { Hero } from './components/sections/Hero';
 import { ProductShowcase } from './components/sections/ProductShowcase';
 import AppInterface from './components/sections/AppInterface';
 import { Features } from './components/sections/Features';
+import { Contact } from './components/sections/Contact';
 import { About } from './components/sections/About';
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <ProductShowcase />
         <Features />
         <AppInterface />
+        <Contact />
         <About />
       </main>
       <Footer />
